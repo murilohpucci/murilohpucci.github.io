@@ -28,7 +28,7 @@ jobs:
         with:
           cli: latest
 
-      - run: clojure -X:build
+      - run: clojure -M:build
 
       - uses: actions/upload-pages-artifact@v3
         with:
