@@ -1,4 +1,4 @@
-# murilopucci.dev
+# [murilopucci.dev](https://murilopucci.dev)
 
 Personal blog/site built with [Cryogen](http://cryogenweb.org/), a static site generator written in Clojure. Content is authored in Markdown, compiled to static HTML, and deployed automatically to GitHub Pages via GitHub Actions.
 
