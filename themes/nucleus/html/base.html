@@ -88,6 +88,9 @@
 {% script "js/highlight.pack.js" %}
 <script>hljs.initHighlightingOnLoad();</script>
 {% script "js/scripts.js" %}
+<!-- Cloudflare Web Analytics -->
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "09b11773fb7f4b18aec2d5bdbda90e0c"}'></script>
+<!-- End Cloudflare Web Analytics -->
 {% if post.klipse %} {{post.klipse|safe}} {% endif %}
 {% if page.klipse %} {{page.klipse|safe}} {% endif %}
 </body>
