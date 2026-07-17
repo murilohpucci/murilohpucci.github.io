@@ -115,10 +115,10 @@ clojure -M -m image-resizer.cli [options]
  
 ```bash
 # Convert all images under content/img using the default quality (85)
-clojure -M -m image-resizer.cli
+clojure -M -m image-resizer.core
  
 # Convert images in a custom folder with higher quality
-clojure -M -m image-resizer.cli --path content/img/posts --quality 95
+clojure -M -m image-resizer.core --path content/img/posts --quality 95
 ```
  
 > ⚠️ **Note:** originals are deleted automatically after a successful conversion. Make sure the source images are committed to Git (or backed up elsewhere) before running this, in case you need the originals again.
