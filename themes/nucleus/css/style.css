@@ -140,16 +140,6 @@ img.imgfull {
     border-radius: 50%;
 }
 
-#left p#logo a span.text {
-    float: left;
-    width: 100%;
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 700;
-    font-family: "Montserrat";
-    text-transform: uppercase;
-}
-
 #left #socialmedia ul {
     position: absolute;
     bottom: 30px;
