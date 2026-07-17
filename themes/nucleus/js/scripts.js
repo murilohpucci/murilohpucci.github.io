@@ -22,5 +22,13 @@ $(document).ready(function() {
 		});
 		$(this).toggleClass("active");
 	});
-});
 
+
+	if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+		$('<script>', {
+			defer: true,
+			src: 'https://static.cloudflareinsights.com/beacon.min.js',
+			'data-cf-beacon': '{"token": "09b11773fb7f4b18aec2d5bdbda90e0c"}'
+		}).appendTo('body');
+	}
+});
